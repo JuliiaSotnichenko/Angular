@@ -1,0 +1,43 @@
+.page-container{
+  /* max-width: 1000px; */
+  display: flex;
+  height: 100%;
+  background-color: #fff;
+  justify-content: space-between;
+  text-align: center;
+  padding-left: 40px;
+}
+
+.logo-img{
+  width: 100px;
+  height: 100px;
+  display: flex;
+
+}
+
+
+.page-content-container{
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.list-item.selected{
+background-color:  orange;
+font-size: 30px;
+}
+
+
+.list-item{
+  font-size: 20px;
+  color:black;
+  padding: 10px 20px;
+}
+
+.container-main{
+  background-image: url(src/assets/js-bg.jpeg);
+  width: 100%;
+  height: 50vh;
+  margin: auto;
+}
+
